@@ -238,7 +238,7 @@ Accept donations on Stellar but deploy them on Polkadot projects without reveali
 
 - **GitHub Repository:** [https://github.com/Arnav-panjla/Insidr](https://github.com/Arnav-panjla/Insidr)
 - **Live Demo:** Mobile app
-- **Video Demo:** [insidr.mp4](./assets/insidr.mp4)
+- **Video Demo:** [insidr.mp4](./Insidr/assets/insidr.mp4)
 
 ## 🌐 Deployed Smart Contracts
 
@@ -366,19 +366,19 @@ Stellar uses the **Soroban** smart contract platform, which is integrated direct
 
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="./assets/1.png" alt="App Home Screen" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <img src="./Insidr/assets/1.png" alt="App Home Screen" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     <p style="margin-top: 10px; font-size: 14px; color: #666;"><em>Main app launcher with demo modes</em></p>
   </div>
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="./assets/2.png" alt="Bridge Demo Interface" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <img src="./Insidr/assets/2.png" alt="Bridge Demo Interface" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     <p style="margin-top: 10px; font-size: 14px; color: #666;"><em>Bridge interface showing transfer flow</em></p>
   </div>
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="./assets/3.png" alt="Transaction Status" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <img src="./Insidr/assets/3.png" alt="Transaction Status" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     <p style="margin-top: 10px; font-size: 14px; color: #666;"><em>Real-time transaction status and proof generation</em></p>
   </div>
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="./assets/4.png" alt="Testnet Demo" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <img src="./Insidr/assets/4.png" alt="Testnet Demo" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     <p style="margin-top: 10px; font-size: 14px; color: #666;"><em>Testnet demo with deployed contracts and block explorer links</em></p>
   </div>
 </div>
