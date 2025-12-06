@@ -285,9 +285,11 @@ Accept donations on Stellar but deploy them on Polkadot projects without reveali
 
 **Platform:** Polkadot ink! Smart Contracts
 **Network:** Local substrate-contracts-node (ws://127.0.0.1:9944)
-**Note:** Using local development node as public Polkadot contract parachains (Astar Network, Phala Network) require mainnet funding. Contracts are production-ready and can be deployed to:
-- **Astar Network** - Polkadot's smart contract hub parachain
-- **Phala Network** - Privacy-focused smart contract parachain
+**Testnet Target:** Westend Asset Hub (Parachain ID: 1000)
+**Note:** Using local development node as public Polkadot contract parachains require testnet funding. Contracts are production-ready and can be deployed to:
+- **Westend Asset Hub** (Parachain ID: 1000) - Testnet contracts parachain with ink! support
+- **Astar Network** - Polkadot's smart contract hub parachain (Mainnet)
+- **Phala Network** - Privacy-focused smart contract parachain (Mainnet)
 - **Other ink!-compatible parachains** when funded
 
 #### 1. Minimal Test Contract (Demo & Testing)
@@ -299,6 +301,8 @@ Accept donations on Stellar but deploy them on Polkadot projects without reveali
 - **Deployment:** Run `./scripts/deploy_polkadot_local.sh` after starting local node
 
 #### 2. Complete Bridge Contract (Production-Ready)
+- **Contract Address:** `5GTDBGRjJu2ct7RFgTreCpvRdYXE8zaDjmW9VmbpSkzR5LHZ`
+- **Code Hash:** `0x48f3458ca332f5c129ac51308738ea130f48f0a41d1fc0c8dff45fedac8fecdd`
 - **Contract File:** `contracts/polkadot/polkadot_bridge_complete.rs`
 - **Network:** Local substrate-contracts-node (ws://127.0.0.1:9944)
 - **Type:** Full ZK-verified bridge with token minting
@@ -311,6 +315,7 @@ Accept donations on Stellar but deploy them on Polkadot projects without reveali
   - `get_commitment(commitment_hash)` - Query commitment details
   - `get_total_minted()` - Get minted supply
   - `get_total_burned()` - Get burned amount
+  - `get_owner()` - Get contract owner
 - **Features:**
   - ZK proof verification
   - Nullifier tracking for security
@@ -318,13 +323,12 @@ Accept donations on Stellar but deploy them on Polkadot projects without reveali
   - Transfer capabilities
   - Pausable for emergencies
   - Admin functions
-- **Deployment:** Run `./scripts/deploy_polkadot_complete.sh` after starting local node
-- **Status:** Ready for deployment
+- **Status:** ✅ Deployed and operational
 
 ### Polkadot Testnet Account
-- **Address:** `5EZ4VoqsKmH15kWTCifTA8gLVW2VuGhJFshpN6Mj1Hp3MN78`
-- **Network:** Local substrate-contracts-node for testing
-- **Explorer:** https://westend.subscan.io/account/5EZ4VoqsKmH15kWTCifTA8gLVW2VuGhJFshpN6Mj1Hp3MN78
+- **Address:** `5GeXwiLGAkcqZa6kb1BunHCJeHNPDtg9a1FRKbAT9966p2Dk`
+- **Network:** Local substrate-contracts-node for testing / Paseo testnet (funded with 5000 PAS)
+- **Used for:** Contract deployment and transaction signing
 
 ### How to Deploy Complete Contracts
 
